@@ -29,15 +29,15 @@
             <br><br>
         <label for="course">Select your preferes course:</label><br>
             <input type="checkbox" name="course[]" value="cybersecurity">
-            <label value="cs">Cyber security</label><br>
+            <label value="cybersecurity">Cyber security</label><br>
             <input type="checkbox" name="course[]" value="front end">
-            <label for="fe">Front end web development</label><br>
+            <label for="frontend">Front end web development</label><br>
             <input type="checkbox" name="course[]" value="back end">
-            <label for="be">Back end web development</label><br>
+            <label for="backend">Back end web development</label><br>
             <input type="checkbox" name="course[]" value="data analyst">
-            <label for="da">Data analyst</label><br>
+            <label for="dataanalysis">Data analyst</label><br>
             <input type="checkbox" name="course[]" value="graphic design">
-            <label for="gd">Graphic design</label>
+            <label for="graphicdesign">Graphic design</label>
             <br><br>
 
             <label for="Country">Select Country:</label><br>
@@ -75,11 +75,14 @@
   <!-- <form action="https://formsubmit.co/ogilichigozie32@gmail.com" method="POST"></form> -->
 
  <!-- disable captcha -->
-  <input type="hidden" value="false">
+  <input type="hidden" name="_captcha" value="false">
 
-<button type="submit">Send</button> 
-    </form>
+  <input type="hidden" name="_template" value="table">
 
-    
+
+<button type="submit">Submit</button> 
+
+
+</form>
 </body>
 </html>
