@@ -28,15 +28,15 @@
             <input type="radio" name="gender" value="female">female</label>
             <br><br>
         <label for="course">Select your preferes course:</label><br>
-            <input type="checkbox" name="course" value="cybersecurity">
+            <input type="checkbox" name="course[]" value="cybersecurity">
             <label value="cs">Cyber security</label><br>
-            <input type="checkbox" name="course" value="front end">
+            <input type="checkbox" name="course[]" value="front end">
             <label for="fe">Front end web development</label><br>
-            <input type="checkbox" name="course" value="back end">
+            <input type="checkbox" name="course[]" value="back end">
             <label for="be">Back end web development</label><br>
-            <input type="checkbox" name="course" value="data analyst">
+            <input type="checkbox" name="course[]" value="data analyst">
             <label for="da">Data analyst</label><br>
-            <input type="checkbox" name="course" value="graphic design">
+            <input type="checkbox" name="course[]" value="graphic design">
             <label for="gd">Graphic design</label>
             <br><br>
 
@@ -71,7 +71,8 @@
 <br><br>
 
 <!-- Redirect to a thankyou page  -->
- <input type="hidden" name="_next" value="https://chigozie32.github.io/contact-form/success.html">
+ <!-- <input type="hidden" name="_next" value="https://chigozie32.github.io/contact-form/success.html"> -->
+  <!-- <form action="https://formsubmit.co/ogilichigozie32@gmail.com" method="POST"></form> -->
 
  <!-- disable captcha -->
   <input type="hidden" value="false">
