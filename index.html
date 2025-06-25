@@ -7,16 +7,16 @@
 </head>
 <body>
     <form action="https://formsubmit.co/ogilichigozie32@gmail.com" method="POST">
-        <label for="name">Full Name:</label><br>
-        <input type="text" required placeholder="input your full name">
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" name="name" required placeholder="input your full name">
         <br><br>
 
         <label for="name">Email:</label><br>
-        <input type="Email" placeholder="Example11@gmail.com" required>
+        <input type="Email" name="email" placeholder="Example11@gmail.com" required>
         <br><br>
 
         <label for="phone">Phone Number:</label><br>
-        <input type="number" placeholder="enter your phone number">
+        <input type="number" name="phone" placeholder="enter your phone number">
         <br><br>
 
 
@@ -29,7 +29,7 @@
             <br><br>
         <label for="course">Select your preferes course:</label><br>
             <input type="checkbox" name="course" value="cybersecurity">
-            <label for="cs">Cyber security</label><br>
+            <label value="cs">Cyber security</label><br>
             <input type="checkbox" name="course" value="front end">
             <label for="fe">Front end web development</label><br>
             <input type="checkbox" name="course" value="back end">
@@ -67,7 +67,7 @@
 </select><br><br>
 
 
-<textarea placeholder="Type your feedback or questions here and let us know how we can help you..." rows="5" cols="40"></textarea>
+<textarea name="textarea" placeholder="Type your feedback or questions here and let us know how we can help you..." rows="5" cols="40"></textarea>
 <br><br>
 
 <!-- Redirect to a thankyou page  -->
